@@ -10,6 +10,7 @@ description = "An MDPI-style paper template to publish at conferences and journa
 repository = "https://github.com/JamesxX/splendid-mdpi"
 keywords = ["paper", "article", "journal", "conference"]
 categories = ["paper"]
+compiler = "0.12.0"
 exclude = [
 	".github",
 	"docs",
