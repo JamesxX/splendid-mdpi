@@ -54,8 +54,7 @@
 
   let details = [
     #set text(7pt)
-    #set par(leading: 7pt)
-    #show par: set block(spacing: 18pt)
+    #set par(leading: 7pt, spacing: 18pt)
     *Citation:* #{authors.map(author => author.name).join("; ")}.
     #title.
     #venue-abbrv 
